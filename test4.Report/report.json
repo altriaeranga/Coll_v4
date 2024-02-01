@@ -36,6 +36,15 @@
           "z": 1000.00
         },
         {
+          "config": "{\"name\":\"743e98af31a2242443ff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":78.21638553409605,\"y\":399.31523141091145,\"z\":2,\"width\":429.50401179249235,\"height\":300.5155865257375,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Query1.Quantity)\"}],\"Details\":[{\"queryRef\":\"Query1.Postal Code\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Quantity\"}},\"Function\":0},\"Name\":\"Sum(Query1.Quantity)\",\"NativeReferenceName\":\"Sum of Quantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Postal Code\"},\"Name\":\"Query1.Postal Code\",\"NativeReferenceName\":\"Postal Code\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.52,
+          "width": 429.50,
+          "x": 78.22,
+          "y": 399.32,
+          "z": 2.00
+        },
+        {
           "config": "{\"name\":\"9b5f799053fd00f9fb71\",\"layouts\":[{\"id\":0,\"position\":{\"x\":472.0209973753281,\"y\":218.3727034120735,\"z\":0,\"width\":280.5249343832021,\"height\":280.5249343832021,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Query1.Category\"},{\"queryRef\":\"Sum(Query1.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Category\"},\"Name\":\"Query1.Category\",\"NativeReferenceName\":\"Category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Query1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 280.52,
