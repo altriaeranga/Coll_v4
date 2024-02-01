@@ -61,11 +61,11 @@
           }
         ],
         "expression": [
-          "let",
-          "    Source = Excel.Workbook(Parameter1, null, true),",
-          "    Orders_Sheet = Source{[Item=\"Orders\",Kind=\"Sheet\"]}[Data],",
-          "    #\"Promoted Headers\" = Table.PromoteHeaders(Orders_Sheet, [PromoteAllScalars=true])",
-          "in",
+          "let\r",
+          "    Source = Excel.Workbook(Parameter1, null, true),\r",
+          "    Orders_Sheet = Source{[Item=\"Orders\",Kind=\"Sheet\"]}[Data],\r",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Orders_Sheet, [PromoteAllScalars=true])\r",
+          "in\r",
           "    #\"Promoted Headers\""
         ],
         "kind": "m",
@@ -81,11 +81,11 @@
           }
         ],
         "expression": [
-          "let",
-          "    Source = SharePoint.Files(\"https://thealtria.sharepoint.com/sites/EPTest\", [ApiVersion = 15]),",
-          "    #\"Filtered Rows\" = Table.SelectRows(Source, each ([Extension] = \".xlsx\")),",
-          "    Navigation1 = #\"Filtered Rows\"{0}[Content]",
-          "in",
+          "let\r",
+          "    Source = SharePoint.Files(\"https://thealtria.sharepoint.com/sites/EPTest\", [ApiVersion = 15]),\r",
+          "    #\"Filtered Rows\" = Table.SelectRows(Source, each ([Extension] = \".xlsx\")),\r",
+          "    Navigation1 = #\"Filtered Rows\"{0}[Content]\r",
+          "in\r",
           "    Navigation1"
         ],
         "kind": "m",
@@ -102,7 +102,7 @@
         ],
         "expression": [
           "let",
-          "    Source = (Parameter1) => let",
+          "    Source = (Parameter1 as binary) => let",
           "        Source = Excel.Workbook(Parameter1, null, true),",
           "        Orders_Sheet = Source{[Item=\"Orders\",Kind=\"Sheet\"]}[Data],",
           "        #\"Promoted Headers\" = Table.PromoteHeaders(Orders_Sheet, [PromoteAllScalars=true])",
@@ -160,10 +160,6 @@
       {
         "name": "Query1",
         "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
           {
             "name": "PBI_ResultType",
             "value": "Table"
