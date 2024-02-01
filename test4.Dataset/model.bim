@@ -101,14 +101,14 @@
           }
         ],
         "expression": [
-          "let",
-          "    Source = (Parameter1 as binary) => let",
-          "        Source = Excel.Workbook(Parameter1, null, true),",
-          "        Orders_Sheet = Source{[Item=\"Orders\",Kind=\"Sheet\"]}[Data],",
-          "        #\"Promoted Headers\" = Table.PromoteHeaders(Orders_Sheet, [PromoteAllScalars=true])",
-          "    in",
-          "        #\"Promoted Headers\"",
-          "in",
+          "let\r",
+          "    Source = (Parameter1 as binary) => let\r",
+          "        Source = Excel.Workbook(Parameter1, null, true),\r",
+          "        Orders_Sheet = Source{[Item=\"Orders\",Kind=\"Sheet\"]}[Data],\r",
+          "        #\"Promoted Headers\" = Table.PromoteHeaders(Orders_Sheet, [PromoteAllScalars=true])\r",
+          "    in\r",
+          "        #\"Promoted Headers\"\r",
+          "in\r",
           "    Source"
         ],
         "kind": "m",
