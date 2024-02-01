@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.49\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.49\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -27,22 +27,22 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"02d65085740d394f30a1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":99,\"width\":300,\"height\":300,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Query1.Region\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Query1.Sales)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Sales\"}},\"Function\":0},\"Name\":\"Sum(Query1.Sales)\",\"NativeReferenceName\":\"Sum of Sales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Region\"},\"Name\":\"Query1.Region\",\"NativeReferenceName\":\"Region\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Sales\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"02d65085740d394f30a1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":99,\"width\":300,\"height\":300,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Query1.Region\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Query1.Sales)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Sales\"}},\"Function\":0},\"Name\":\"Sum(Query1.Sales)\",\"NativeReferenceName\":\"Sum of Sales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Region\"},\"Name\":\"Query1.Region\",\"NativeReferenceName\":\"Region\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Sales\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 300.00,
           "width": 300.00,
           "x": 150.00,
           "y": 99.00,
-          "z": 1000.00
+          "z": 2000.00
         },
         {
-          "config": "{\"name\":\"743e98af31a2242443ff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":78.21638553409605,\"y\":399.31523141091145,\"z\":2,\"width\":429.50401179249235,\"height\":300.5155865257375,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Query1.Quantity)\"}],\"Details\":[{\"queryRef\":\"Query1.Postal Code\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Quantity\"}},\"Function\":0},\"Name\":\"Sum(Query1.Quantity)\",\"NativeReferenceName\":\"Sum of Quantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Postal Code\"},\"Name\":\"Query1.Postal Code\",\"NativeReferenceName\":\"Postal Code\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"743e98af31a2242443ff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":665.1968503937007,\"y\":381.31233595800524,\"z\":1000,\"width\":428.34645669291336,\"height\":300.68241469816275,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Query1.Quantity)\"}],\"Details\":[{\"queryRef\":\"Query1.Postal Code\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Quantity\"}},\"Function\":0},\"Name\":\"Sum(Query1.Quantity)\",\"NativeReferenceName\":\"Sum of Quantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Postal Code\"},\"Name\":\"Query1.Postal Code\",\"NativeReferenceName\":\"Postal Code\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 300.52,
-          "width": 429.50,
-          "x": 78.22,
-          "y": 399.32,
-          "z": 2.00
+          "height": 300.68,
+          "width": 428.35,
+          "x": 665.20,
+          "y": 381.31,
+          "z": 1000.00
         },
         {
           "config": "{\"name\":\"9b5f799053fd00f9fb71\",\"layouts\":[{\"id\":0,\"position\":{\"x\":472.0209973753281,\"y\":218.3727034120735,\"z\":0,\"width\":280.5249343832021,\"height\":280.5249343832021,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Query1.Category\"},{\"queryRef\":\"Sum(Query1.Profit)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Category\"},\"Name\":\"Query1.Category\",\"NativeReferenceName\":\"Category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Query1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"}]},\"drillFilterOtherVisuals\":true}}",
