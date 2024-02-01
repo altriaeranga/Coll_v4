@@ -66,12 +66,12 @@
       "ordinal": 3,
       "visualContainers": [
         {
-          "config": "{\"name\":\"c519669d62b63d1749ce\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.605521030503024,\"y\":0,\"z\":0,\"width\":614.7533459521935,\"height\":279.9323271746596,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Query1.Product ID\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Query1.Profit)\"},{\"queryRef\":\"Sum(Query1.Quantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Query1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Quantity\"}},\"Function\":0},\"Name\":\"Sum(Query1.Quantity)\",\"NativeReferenceName\":\"Sum of Quantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Product ID\"},\"Name\":\"Query1.Product ID\",\"NativeReferenceName\":\"Product ID\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Profit\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"c519669d62b63d1749ce\",\"layouts\":[{\"id\":0,\"position\":{\"x\":109.77738320574885,\"y\":89.19412385467093,\"z\":0,\"width\":614.7533459521935,\"height\":279.9323271746596,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Query1.Product ID\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Query1.Profit)\"},{\"queryRef\":\"Sum(Query1.Quantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Query1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Profit\"}},\"Function\":0},\"Name\":\"Sum(Query1.Profit)\",\"NativeReferenceName\":\"Sum of Profit\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Quantity\"}},\"Function\":0},\"Name\":\"Sum(Query1.Quantity)\",\"NativeReferenceName\":\"Sum of Quantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Product ID\"},\"Name\":\"Query1.Product ID\",\"NativeReferenceName\":\"Product ID\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"Profit\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 279.93,
           "width": 614.75,
-          "x": 9.61,
-          "y": 0.00,
+          "x": 109.78,
+          "y": 89.19,
           "z": 0.00
         }
       ],
